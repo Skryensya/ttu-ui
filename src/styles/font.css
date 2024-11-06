@@ -1,0 +1,83 @@
+/* src/fonts.css */
+
+/* Epilogue Variable Font */
+@font-face {
+  font-family: "Epilogue";
+  src: url("/fonts/Epilogue/Epilogue-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Epilogue";
+  src: url("/fonts/Epilogue/Epilogue-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+/* Courier Prime Font */
+@font-face {
+  font-family: "Courier Prime";
+  src: url("/fonts/Courier_Prime/CourierPrime-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Courier Prime";
+  src: url("/fonts/Courier_Prime/CourierPrime-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Courier Prime";
+  src: url("/fonts/Courier_Prime/CourierPrime-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Courier Prime";
+  src: url("/fonts/Courier_Prime/CourierPrime-BoldItalic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Universo Font */
+@font-face {
+  font-family: "Universo";
+  src: url("/fonts/Universo/Universo-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Universo";
+  src: url("/fonts/Universo/Universo-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Universo";
+  src: url("/fonts/Universo/Universo-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Universo";
+  src: url("/fonts/Universo/Universo-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Universo";
+  src: url("/fonts/Universo/Universo-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}

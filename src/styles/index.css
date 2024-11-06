@@ -1,0 +1,31 @@
+@import "./font.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+code,
+pre {
+  font-family: "Courier Prime", monospace;
+}
+
+label {
+  font-family: "Universo", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Universo", sans-serif;
+}
+
+a {
+  @apply hover:underline focus:underline;
+}
