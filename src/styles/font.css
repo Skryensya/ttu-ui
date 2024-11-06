@@ -1,5 +1,3 @@
-/* src/fonts.css */
-
 /* Epilogue Variable Font */
 @font-face {
   font-family: "Epilogue";
@@ -80,4 +78,28 @@
   src: url("/fonts/Universo/Universo-Thin.otf") format("opentype");
   font-weight: 100;
   font-style: normal;
+}
+
+/* Universo Font with Stylistic Set */
+@font-face {
+  font-family: "Universo Styled";
+  src: url("/fonts/Universo/Universo-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-feature-settings: "ss02" 1;
+  font-variant-alternates: "ss02";
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Universo Styled";
+  src: url("/fonts/Universo/Universo-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-feature-settings: "ss02" 1;
+  font-variant-alternates: "ss02";
+  font-style: normal;
+}
+
+.font-headings-2 {
+  font-family: "Universo";
+  font-feature-settings: "ss02" 1;
 }
