@@ -51,8 +51,13 @@ export const VideoSection = ({
   return (
     <div className="bg-black py-12 mt-12 text-white">
       <div className="px-4 max-w-6xl mx-auto">
-        <div className="grid grid-cols-5 w-full gap-16">
-          <div className="col-span-2">
+        <div className="grid grid-cols-5 w-full gap-8 md:gap-16">
+          <div className="col-span-5 md:col-span-3 md:order-2">
+            {videoUrl && (
+              <YoutubeEmbed videoUrl={videoUrl} title={videoTitle} />
+            )}
+          </div>
+          <div className="col-span-5 md:col-span-2">
             <p className="text-4xl font-headings uppercase">{title}</p>
             {description && (
               <div
@@ -77,11 +82,6 @@ export const VideoSection = ({
                   buttonCTA.iconPosition === "right" &&
                   buttonCTA.icon}
               </Button>
-            )}
-          </div>
-          <div className="col-span-3">
-            {videoUrl && (
-              <YoutubeEmbed videoUrl={videoUrl} title={videoTitle} />
             )}
           </div>
         </div>

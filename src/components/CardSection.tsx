@@ -84,7 +84,7 @@ export const CardSection = () => {
   ];
 
   return (
-    <div className="grid grid-cols-12 gap-4 flex-wrap mt-12 w-full">
+    <div className="grid grid-cols-4 md:grid-cols-12 gap-4 flex-wrap mt-12 w-full">
       {cardData.map((data, index) => (
         <div key={index} className="col-span-4">
           <Card {...data} />
