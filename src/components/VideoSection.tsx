@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"; // Ensure this path is correct
-import { YoutubeEmbed } from "@/components/YoutubeEmbed"; // Adjust the import path as necessary
+// @ts-expect-error no declaration files
+import { YoutubeEmbed } from "@/components/YoutubeEmbed.jsx"; // Adjust the import path as necessary
 import { ReactNode } from "react";
 import DOMPurify from "dompurify";
 import { LaunchIcon } from "@/lib/icons";
