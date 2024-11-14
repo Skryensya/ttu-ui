@@ -1,4 +1,5 @@
 import "@justinribeiro/lite-youtube";
+import React from "react";
 
 export const YoutubeEmbed = ({ videoUrl, title }) => {
   const videoId = getYouTubeVideoId(videoUrl);
