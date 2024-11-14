@@ -23,7 +23,7 @@ interface HeaderProps {
   shortcuts?: Shortcut[];
 }
 
-const Header: FC<HeaderProps> = ({
+export const Header: FC<HeaderProps> = ({
   menuLinks = HeaderDummyProps.menuLinks,
   socialLinks = HeaderDummyProps.socialLinks,
   shortcuts = HeaderDummyProps.shortcuts,
@@ -181,5 +181,3 @@ const Header: FC<HeaderProps> = ({
     </div>
   );
 };
-
-export default Header;
